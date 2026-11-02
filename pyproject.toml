@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "storyaoin-promptlead_jd082"
+name = "storyaoin-retrieval_funnel_timeline_score"
 version = "0.1.0"
 description = "解析时间标记，排列Prompt 工程负责人·检索召回的漏斗分析的发生顺序，标出间隔异常与逆序事件"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://storyaoin.github.io"
-Repository = "https://github.com/storyaoin/promptlead_jd082"
-Issues = "https://github.com/storyaoin/promptlead_jd082/issues"
+Repository = "https://github.com/storyaoin/retrieval_funnel_timeline_score"
+Issues = "https://github.com/storyaoin/retrieval_funnel_timeline_score/issues"
 
 [project.scripts]
-promptlead_jd082 = "promptlead_jd082:main"
+retrieval_funnel_timeline_score = "retrieval_funnel_timeline_score:main"
 
 [tool.setuptools]
-py-modules = ["promptlead_jd082"]
+py-modules = ["retrieval_funnel_timeline_score"]
